@@ -1,10 +1,11 @@
 public class Mine {
     public static void main(String[] args) {
-        Double money;
-        money = 200.0;
-        while (money >= 100) {
-            System.out.println("dawaj dyche");
-            money = money - 10;
+        Double number;
+        number = 1.0;
+        while (number < 11) {
+            System.out.println(number);
+            System.out.println("+1");
+            number = number + 1;
         }
 
         System.out.println("dalszy ciąg programu");
