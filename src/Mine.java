@@ -1,11 +1,7 @@
 public class Mine {
     public static void main(String[] args) {
-        Double number;
-        number = 1.0;
-        while (number < 11) {
-            System.out.println(number);
-            System.out.println("+1");
-            number = number + 1;
+        for (int i = 1; i <= 10; i = i + 2) {
+            System.out.println(i);
         }
 
         System.out.println("dalszy ciąg programu");
