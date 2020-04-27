@@ -3,9 +3,9 @@ public class Mine {
         for (int y = 0; y < 10; y = y + 1) {
             for (int x = 0; x < 10; x = x + 1) {
                 System.out.print(y * 10 + x);
-                if (x == 9) {
-                    System.out.print("");
-                }
+//                if (x == 9) {
+//                    System.out.print("");
+//                } no need to print 'nothing'
                 if (x < 9)
                 System.out.print(", ");
             }
